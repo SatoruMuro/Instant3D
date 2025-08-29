@@ -1,8 +1,8 @@
 # Instant3D
 
-[日本語はこちら](https://github.com/SatoruMuro/Instant3D/blob/main/READMEJP.md)
-
 **Instant3D** is a tool that automatically segments organs and tissues from CT or MRI DICOM images and NIfTI files, and easily outputs 3D STL models and analysis data. It utilizes **TotalSegmentator** internally, allowing physicians and researchers to perform 3D reconstruction without additional programming.
+
+[日本語はこちら](https://github.com/SatoruMuro/Instant3D/blob/main/READMEJP.md)
 
 ---
 
