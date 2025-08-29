@@ -149,7 +149,7 @@ Some TotalSegmentator subtasks (e.g., **appendicular\_bones**, **tissue\_types**
 ### How to obtain a license key
 
 1. Apply here for an Academic License:
-   [Academic License for TotalSegmentator Special Models](https://backend.totalsegmentator.com/license-academic/?utm_source=chatgpt.com)
+   [Academic License for TotalSegmentator Special Models](https://backend.totalsegmentator.com/license-academic/)
 
 2. Fill in affiliation and purpose of use.
 
