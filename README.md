@@ -4,7 +4,8 @@
 
 [日本語はこちら](https://github.com/SatoruMuro/Instant3D/blob/main/READMEJP.md)
 
-https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image01.jpg
+![Instant3D Top Image](https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image01.jpg)
+
 ---
 
 ## Download and Placement
