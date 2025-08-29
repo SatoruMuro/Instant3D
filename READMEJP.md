@@ -67,6 +67,9 @@ pause
 * **ROI 入力欄**には、各 txt 内に記載された名称をそのまま入力してください（例：`liver`, `kidney_right`, `femur_left` など）。途中まで入力すれば候補が予測表示されます。
 * いくつかの特別サブタスク（例：`appendicular_bones`, `tissue_types`, `heartchambers_highres`, `face` など）は **Academic ライセンス**が必要です。必要に応じて本 README 末尾の「TotalSegmentator: 特別サブタスクの Academic ライセンス」を参照してください。
 
+さらに詳しい対象構造物やタスクの情報については、**TotalSegmentator 公式リポジトリ**も参照してください：
+[https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+
 ---
 
 ## よくある質問（FAQ）
@@ -143,7 +146,7 @@ Instant3D で利用される TotalSegmentator の中には、**appendicular\_bon
 ### ライセンスキーの取得方法
 
 1. 以下のページにアクセスして学術ライセンスキーを申請してください：
-   [Academic License for TotalSegmentator 特別モデル](https://backend.totalsegmentator.com/license-academic/?utm_source=chatgpt.com)
+   [Academic License for TotalSegmentator 特別モデル](https://backend.totalsegmentator.com/license-academic/)
 2. 所属機関や使用目的を入力して申請します。
 3. 承認されると、メール等で **ライセンスキー** が発行されます（例：`aca_XXXXXXXXXX`）。
 
@@ -164,7 +167,13 @@ totalseg_set_license -l aca_XXXXXXXXXX
 ## 参考資料
 
 3D データ（STL など）の開き方については、以下の PDF にまとめています：
-[How to Open 3D Data with 3D Slicer (日本語)](https://github.com/SatoruMuro/Instant3D/blob/main/files/HowToOpen3D%283Dslicer%29JP.pdf)
+[3D Slicer での 3D データの開き方（日本語）](https://github.com/SatoruMuro/Instant3D/blob/main/files/HowToOpen3D%283Dslicer%29JP.pdf)
 
 ---
 
+## 引用について
+
+研究や論文で TotalSegmentator を利用する場合は、**公式リポジトリ**に記載された推奨引用形式を参照してください：
+[https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+
+---
