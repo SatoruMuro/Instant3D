@@ -70,6 +70,9 @@ Lists of **available ROI names** for each task are provided as `.txt` files here
 * In the **ROI input field**, enter the names exactly as listed in the txt files (e.g., `liver`, `kidney_right`, `femur_left`). Autocomplete suggestions will appear as you type.
 * Some special subtasks (e.g., `appendicular_bones`, `tissue_types`, `heartchambers_highres`, `face`) require an **Academic License**. See the section *TotalSegmentator: Academic License for Special Subtasks* below.
 
+For more detailed information on available structures and tasks, please also refer to the **official TotalSegmentator repository**:
+[https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+
 ---
 
 ## FAQ
@@ -170,5 +173,12 @@ Once registered, the special subtasks (e.g., `--task appendicular_bones`) become
 
 Instructions on how to open 3D data (e.g., STL files) are provided here:
 [How to Open 3D Data with 3D Slicer (English)](https://github.com/SatoruMuro/Instant3D/blob/main/files/HowToOpen3D%283Dslicer%29EN.pdf)
+
+---
+
+## Citation
+
+If you use TotalSegmentator in research or publications, please refer to the **official TotalSegmentator repository** for the recommended citation format:
+[https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
 
 ---
