@@ -57,6 +57,9 @@ pause
 4. **Run** を押す
 5. 出力は自動で `<入力名>_Instant3D` フォルダに保存されます
 
+<img src="https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image02.png" width="50%">
+
+
 ---
 
 ## 対象構造物（ROI）一覧（タスク別）
