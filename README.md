@@ -60,7 +60,7 @@ During installation, check **“Add Python to PATH”**. Then run only steps **2
 4. Click **Run**.
 5. Output will be automatically saved in a folder named `<input_name>_Instant3D`.
 
-![Instant3D Window](https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image02.png)
+<img src="https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image02.png" width="50%">
 
 ---
 
