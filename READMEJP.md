@@ -2,6 +2,8 @@
 
 **Instant3D** は、CTやMRIのDICOM 画像や NIfTI ファイルから臓器・組織を自動セグメンテーションし、3D STL モデルや解析用データを簡単に出力できるツールです。TotalSegmentator を内部で利用しており、医師・研究者が追加のプログラミングなしに 3D 再構築を実行できます。
 
+![Instant3D Top Image](https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image01.jpg)
+
 ---
 
 ## ダウンロードと配置
