@@ -1,0 +1,17 @@
+# NOTE: This task requires a license for TotalSegmentator. See docs for non-commercial/commercial licensing.
+brainstem
+subarachnoid_space
+venous_sinuses
+septum_pellucidum
+cerebellum
+caudate_nucleus
+lentiform_nucleus
+insular_cortex
+internal_capsule
+ventricle
+central_sulcus
+frontal_lobe
+parietal_lobe
+occipital_lobe
+temporal_lobe
+thalamus

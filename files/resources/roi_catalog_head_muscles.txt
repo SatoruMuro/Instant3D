@@ -1,0 +1,11 @@
+masseter_right
+masseter_left
+temporalis_right
+temporalis_left
+lateral_pterygoid_right
+lateral_pterygoid_left
+medial_pterygoid_right
+medial_pterygoid_left
+tongue
+digastric_right
+digastric_left

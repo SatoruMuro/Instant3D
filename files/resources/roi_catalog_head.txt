@@ -1,0 +1,7 @@
+mandible
+teeth_lower
+skull
+head
+sinus_maxillary
+sinus_frontal
+teeth_upper

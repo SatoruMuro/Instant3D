@@ -1,0 +1,19 @@
+# NOTE: This task requires a license for TotalSegmentator. See docs for non-commercial/commercial licensing.
+quadriceps_femoris_left
+quadriceps_femoris_right
+thigh_medial_compartment_left
+thigh_medial_compartment_right
+thigh_posterior_compartment_left
+thigh_posterior_compartment_right
+sartorius_left
+sartorius_right
+deltoid
+supraspinatus
+infraspinatus
+subscapularis
+coracobrachial
+trapezius
+pectoralis_minor
+serratus_anterior
+teres_major
+triceps_brachii

@@ -1,0 +1,12 @@
+larynx_air
+thyroid_cartilage
+hyoid
+cricoid_cartilage
+zygomatic_arch_right
+zygomatic_arch_left
+styloid_process_right
+styloid_process_left
+internal_carotid_artery_right
+internal_carotid_artery_left
+internal_jugular_vein_right
+internal_jugular_vein_left

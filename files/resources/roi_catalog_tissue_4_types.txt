@@ -1,0 +1,5 @@
+# NOTE: This task requires a license for TotalSegmentator. See docs for non-commercial/commercial licensing.
+subcutaneous_fat
+torso_fat
+skeletal_muscle
+intermuscular_fat

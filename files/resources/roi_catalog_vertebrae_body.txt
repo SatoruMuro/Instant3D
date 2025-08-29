@@ -1,0 +1,3 @@
+# NOTE: This task requires a license for TotalSegmentator. See docs for non-commercial/commercial licensing.
+vertebrae_body
+intervertebral_discs

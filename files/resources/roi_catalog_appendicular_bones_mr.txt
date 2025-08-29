@@ -1,0 +1,9 @@
+# NOTE: This task requires a license for TotalSegmentator. See docs for non-commercial/commercial licensing.
+patella
+tibia
+fibula
+tarsal
+metatarsal
+phalanges_feet
+ulna
+radius
