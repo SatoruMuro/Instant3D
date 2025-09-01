@@ -84,16 +84,16 @@ For more detailed information on available structures and tasks, please also ref
 Instant3D relies on the ROI definitions provided by **TotalSegmentator**.
 If the structure you want to reconstruct is **not included in the available ROI lists**, you can use **[SegRef3D](https://github.com/SatoruMuro/SAM2GUIfor3Drecon)**.
 
-SegRef3D is a **general-purpose 3D reconstruction tool** that enables you to:
+SegRef3D is a **general-purpose 3D reconstruction tool** that provides:
 
-* Import and refine **custom segmentation masks** (manual or AI-generated).
-* Handle structures not covered by predefined ROI catalogs.
-* Export STL and quantitative data, similar to Instant3D.
+* A **highly versatile automatic segmentation function** that works regardless of imaging modality or target structure
+* Extraction and 3D reconstruction of arbitrary structures not covered by ROI catalogs
+* STL and quantitative data export similar to Instant3D
 
 In short:
 
-* **Instant3D** → Fast & automatic for predefined ROIs.
-* **SegRef3D** → Flexible & customizable for any structure.
+* **Instant3D** → Fast & automatic for predefined ROIs
+* **SegRef3D** → Flexible & customizable for any structure, beyond the predefined ROI catalog
 
 ---
 
