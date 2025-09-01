@@ -17,35 +17,74 @@ Instant3D の最新版は GitHub Releases から zip 形式で配布していま
 
 ---
 
-## インストール（初回だけ）
+## インストール（初回のみ）
 
-### かんたん一括セットアップ（推奨・Windows 10/11）
+### オプションA: CPU版（簡単セットアップ、多くのユーザーに推奨）
 
 1. **スタートメニュー → “Windows Terminal” または “コマンドプロンプト” を右クリック → 管理者として実行**
-   （どちらでも可。Windows 11 では通常 “PowerShell” が開きます）
+   （どちらでも可。Windows 11 ではデフォルトで PowerShell が開きます）
 
-2. 以下を **丸ごとコピーして実行**（Python と TotalSegmentator をインストールし、モデルもダウンロードします）
+2. 以下のスクリプトをコピー＆ペーストして実行：
 
 ```bat
-:: === Instant3D セットアップ（管理者PowerShell/CMDで実行） ===
-:: 1) Python を winget で入れる（既に入っていれば自動スキップ）
-winget install -e --id Python.Python.3.12 -h || echo (Python 3.12: すでに入っている/手動インストール済み)
+:: === Instant3D セットアップ (CPUモード) ===
+:: 1) wingetでPythonをインストール（すでにインストール済みならスキップ）
+winget install -e --id Python.Python.3.12 -h || echo (Python 3.12 はすでにインストール済み)
 
-:: 2) pip を更新 & TotalSegmentator をインストール（CPU版）
+:: 2) pipをアップグレードし、TotalSegmentator（CPU版）をインストール
 python -m pip install --upgrade pip
 pip install TotalSegmentator
 
-:: 3) モデルをダウンロード（最初だけ数GB）
+:: 3) モデルをダウンロード（初回のみ、数GB）
 totalsegmentator --download_model
 
 :: 4) 動作確認（ヘルプが表示されればOK）
 totalsegmentator -h
 echo.
-echo === Setup complete! Close this window. ===
+echo === CPU版セットアップ完了！このウィンドウを閉じてください ===
 pause
 ```
 
-⚠️ **winget が使えないPC** では、[Python 公式サイト](https://www.python.org/downloads/windows/) から **Python 3.12 (64bit)** をインストールしてください。インストール時に `Add Python to PATH` にチェックを入れ、その後 上記スクリプトの **2)〜4)** だけ実行します。
+⚠️ **wingetが使えない場合** は、[公式Pythonサイト](https://www.python.org/downloads/windows/) から **Python 3.12 (64-bit)** をインストールしてください。
+インストール時に **“Add Python to PATH”** に必ずチェックを入れてください。その後、上記の **2)～4)** のみ実行してください。
+
+---
+
+### オプションB: GPU版（処理高速化、NVIDIA CUDA GPUが必要）
+
+1. **スタートメニュー → “Windows Terminal” または “コマンドプロンプト” を右クリック → 管理者として実行**
+
+2. 以下のスクリプトをコピー＆ペーストして実行：
+
+```bat
+:: === Instant3D セットアップ (GPUモード) ===
+:: 1) wingetでPythonをインストール（すでにインストール済みならスキップ）
+winget install -e --id Python.Python.3.12 -h || echo (Python 3.12 はすでにインストール済み)
+
+:: 2) pipをアップグレード
+python -m pip install --upgrade pip
+
+:: 3) CUDA対応のPyTorchをインストール（例: CUDA 12.1 用）
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+:: 4) TotalSegmentatorをインストール
+pip install TotalSegmentator
+
+:: 5) モデルをダウンロード（初回のみ、数GB）
+totalsegmentator --download_model
+
+:: 6) 動作確認（ヘルプが表示されればOK）
+totalsegmentator -h
+echo.
+echo === GPU版セットアップ完了！このウィンドウを閉じてください ===
+pause
+```
+
+⚠️ **GPUユーザー向け注意事項**
+
+* GPUドライバとCUDA Toolkitを最新にしてください。
+* PyTorchインストールコマンドは使用しているCUDAバージョンに合わせて変更してください（詳細は [PyTorch公式ガイド](https://pytorch.org/get-started/locally/) を参照）。
+* GPUが検出されない場合は、自動的にCPUモードにフォールバックします。
 
 ---
 
