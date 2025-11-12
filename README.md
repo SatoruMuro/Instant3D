@@ -96,7 +96,7 @@ pause
 
    * Place your DICOM folder or NIfTI file in the same folder as `Instant3D.exe`.
    * If your DICOM files do not have the `.dcm` extension, add it first using the following batch file:  
-     👉 [add_dcm_extension.bat](https://raw.githubusercontent.com/SatoruMuro/Instant3D/main/files/add_dcm_extension.bat)
+     👉 [add_dcm_extension.bat](https://github.com/SatoruMuro/Instant3D/blob/main/files/add_dcm_extension.bat)
 
 
      **How to use:**
