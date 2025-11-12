@@ -92,11 +92,42 @@ pause
 
 ## Basic Usage
 
-1. Double-click `Instant3D.exe` to launch.
-2. **Input**: Select a DICOM folder or NIfTI file.
-3. Enter ROI and click **Add ROI** (multiple can be added).
-4. Click **Run**.
-5. Output will be automatically saved in a folder named `<input_name>_Instant3D`.
+1. **Preparation**
+
+   * Place your DICOM folder or NIfTI file in the same folder as `Instant3D.exe`.
+   * If your DICOM files do not have the `.dcm` extension, add it first using the following batch file:
+     👉 [add_dcm_extension.bat](https://raw.githubusercontent.com/SatoruMuro/Instant3D/main/files/add_dcm_extension.bat)
+
+
+     **How to use:**
+
+     1. Download the batch file from the above link.
+     2. Place it in the same folder as your DICOM files.
+     3. Double-click the batch file to run — `.dcm` extensions will be automatically added to all files in that folder.
+
+2. **Launch Instant3D**
+   Double-click `Instant3D.exe` to start the program.
+
+3. **Input Selection**
+
+   * Click **Browse** in the **Input** section.
+   * If your dataset is a single file (e.g., `.nii`), select the file directly.
+   * If your dataset consists of multiple DICOM files, cancel the file selection dialog once; a folder selection dialog will appear — select your DICOM folder there.
+
+4. **ROI Settings**
+
+   * Enter the desired ROI and click **Add ROI** (multiple ROIs can be added).
+   * As you start typing, **Instant3D automatically suggests ROI names** based on the available segmentation options — simply select the correct one from the suggestions.
+   * For structures not included in the **basic segmentation task**, switch to the appropriate **specialized task** before setting the ROI.
+
+     * Example: To reconstruct the **mandible**, select `craniofacial_structures` under **segmentation task**, then specify ROIs such as `mandible` and `skull`.
+
+5. **Run Segmentation**
+   Click **Run** to start processing.
+
+6. **Output**
+   The output will be automatically saved in a folder named `<input_name>_Instant3D` in the same directory.
+
 
 <img src="https://github.com/SatoruMuro/Instant3D/blob/main/files/Instant3D_image02.png" width="50%">
 
