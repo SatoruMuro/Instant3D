@@ -271,13 +271,14 @@ Instructions on how to open 3D data (e.g., STL files) are provided here:
 
 If you use **Instant3D** in your research or publications, please cite the following paper:
 
-**Instant3D**  
-Satoru Muro, Takuya Ibara, Akimoto Nimura, et al.  
-*Instant3D: A User-Friendly GUI Integrating TotalSegmentator for Immediate Medical Image Segmentation and 3D Reconstruction.*  
-PREPRINT (Version 1), Research Square, 19 November 2025.  
-https://doi.org/10.21203/rs.3.rs-8150723/v1
+**Instant3D**
+Satoru Muro, Takuya Ibara, Akimoto Nimura, et al.
+*Instant3D: A User-Friendly GUI Integrating TotalSegmentator for Immediate Medical Image Segmentation and 3D Reconstruction.*
+PREPRINT (Version 1), Research Square, 19 November 2025.
+[https://doi.org/10.21203/rs.3.rs-8150723/v1](https://doi.org/10.21203/rs.3.rs-8150723/v1)
 
 **BibTeX:**
+
 ```bibtex
 @article{muro2025instant3d,
   title={Instant3D: A User-Friendly GUI Integrating TotalSegmentator for Immediate Medical Image Segmentation and 3D Reconstruction},
@@ -288,7 +289,11 @@ https://doi.org/10.21203/rs.3.rs-8150723/v1
   note={PREPRINT (Version 1)},
   doi={10.21203/rs.3.rs-8150723/v1}
 }
+```
 
 ---
 
-If you use TotalSegmentator in research or publications, please refer to the **official TotalSegmentator repository** for the recommended citation format: [https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+If you use **TotalSegmentator** in research or publications, please refer to the
+**official TotalSegmentator repository** for the recommended citation format:
+[https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+
