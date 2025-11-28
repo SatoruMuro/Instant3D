@@ -269,7 +269,19 @@ Instructions on how to open 3D data (e.g., STL files) are provided here:
 
 ## Citation
 
-If you use TotalSegmentator in research or publications, please refer to the **official TotalSegmentator repository** for the recommended citation format:
-[https://github.com/wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+If you use **Instant3D** in your research or publications, please cite the following paper:
+
+**Instant3D**  
+Satoru Muro, Takuya Ibara, Akimoto Nimura, et al.  
+*Instant3D: A User-Friendly GUI Integrating TotalSegmentator for Immediate Medical Image Segmentation and 3D Reconstruction.*  
+PREPRINT (Version 1), Research Square, 19 November 2025.  
+https://doi.org/10.21203/rs.3.rs-8150723/v1
 
 ---
+
+If you use **TotalSegmentator** in research or publications, please cite the official repository:
+
+**TotalSegmentator**  
+Wasserthal J., Breit H., Hinck D., et al.  
+Official repository: https://github.com/wasserth/TotalSegmentator
+
