@@ -9,7 +9,7 @@
 ## ダウンロードと配置
 
 Instant3D の最新版は GitHub Releases から zip 形式で配布しています：
-[Instant3D Releases ページ](https://github.com/SatoruMuro/Instant3D/releases/tag/Instant3Dv20250829)
+[Instant3D Releases ページ](https://github.com/SatoruMuro/Instant3D/releases/tag/Instant3Dv20260617)
 
 1. 上記リンクから zip ファイルをダウンロードします。
 2. zip を解凍し、フォルダごと `C:\\` ドライブ直下に配置してください（例：`C:\\Instant3D`）。
