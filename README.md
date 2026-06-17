@@ -41,7 +41,7 @@ Instant3D is intended as a **workflow tool** for running TotalSegmentator and ex
 ## Download and Placement
 
 The latest version of Instant3D is distributed as a zip file from GitHub Releases:
-[Instant3D Releases Page](https://github.com/SatoruMuro/Instant3D/releases/tag/Instant3Dv20250829)
+[Instant3D Releases Page](https://github.com/SatoruMuro/Instant3D/releases/tag/Instant3Dv20260617)
 
 1. Download the zip file from the link above.
 2. Unzip it and place the entire folder directly under the `C:\\` drive (e.g., `C:\\Instant3D`).
